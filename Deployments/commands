@@ -1,2 +1,6 @@
 kubectl get pods --show-label
 kubectl describe svc <<name>>
+kubectl get ep
+kubectl describe ep
+kubectl get pods -o wide
+kubectl get svc
