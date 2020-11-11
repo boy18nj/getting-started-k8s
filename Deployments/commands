@@ -5,3 +5,7 @@ kubectl describe ep
 kubectl get pods -o wide
 kubectl get svc
 kubectl apply -f deploy-complete.yml
+kubectl rollout status deploy web-deploy
+kubectl rollout history deploy web-deploy
+kubectl get rs
+kubectl rollout undo deploy web-deploy --to-revision=1
