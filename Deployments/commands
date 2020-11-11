@@ -4,3 +4,4 @@ kubectl get ep
 kubectl describe ep
 kubectl get pods -o wide
 kubectl get svc
+kubectl apply -f deploy-complete.yml
