@@ -1,0 +1,1 @@
+kubectl expose pod hello-pod --name=hello-svc --target-port=8080 --type=NodePort
