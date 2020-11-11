@@ -1,1 +1,3 @@
 kubectl expose pod hello-pod --name=hello-svc --target-port=8080 --type=NodePort
+kubectl get svc
+kubectl delete svc hello-svc
