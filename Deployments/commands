@@ -1,0 +1,2 @@
+kubectl get pods --show-label
+kubectl describe svc <<name>>
